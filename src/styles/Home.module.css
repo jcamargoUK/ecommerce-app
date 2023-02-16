@@ -1,3 +1,18 @@
 .main{
- height: 700px;
+ height: 500px;
+ display: flex;
+ background-color: var(--black);
+}
+
+.info{
+  width: 50%;
+}
+
+.image{
+  width: 50%;
+}
+
+.p, .h1, .h2{
+  width: 60%;
+  color: var(--fafaWhite);
 }
