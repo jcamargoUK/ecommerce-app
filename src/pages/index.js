@@ -13,7 +13,7 @@ export default function Home() {
         <Image
         src='/assets/home/desktop/hero.jpeg'
         width={250}
-        height={600}
+        height={500}
         alt='XX99 MARK II HEADPHONES'
         />
       </div>
