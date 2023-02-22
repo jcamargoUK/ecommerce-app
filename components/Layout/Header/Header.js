@@ -25,7 +25,7 @@ export default function Header() {
           </li>
           <li className={styles.li}>
             <Link className={styles.link} href="/product">
-              earphone
+              earphones
             </Link>
           </li>
         </ul>

@@ -19,6 +19,7 @@
 .h1{
   color: var(--fafaWhite);
   margin-top: 0.6rem;
+  font-size: 2rem;
 }
 
 .ul{

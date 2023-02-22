@@ -12,8 +12,8 @@ export default function Home() {
       <div className={styles.image}>
         <Image
         src='/assets/home/desktop/hero.jpeg'
-        width={250}
-        height={500}
+        width={400}
+        height={450}
         alt='XX99 MARK II HEADPHONES'
         />
       </div>
