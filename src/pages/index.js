@@ -1,8 +1,10 @@
 import styles from "@/styles/Home.module.css";
 import Image from 'next/image';
+import Product_List from "components/Layout/Product_List/Product_list";
 
 export default function Home() {
   return (
+    <>
     <div className={styles.main}> 
       <div className={styles.info}>
         <h2 className={styles.h2}>NEW PRODUCT</h2>
@@ -18,5 +20,7 @@ export default function Home() {
         />
       </div>
     </div>
+    <Product_List />
+    </>
   );
 }

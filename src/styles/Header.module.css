@@ -9,7 +9,7 @@
 
 .headerContainer{
   display: flex;
-  width: 1109px;
+  width: 78%;
   background-color: var(--black);
   margin: auto;
   border-bottom: 1px solid var(--fafaWhite);
