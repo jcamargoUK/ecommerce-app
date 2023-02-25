@@ -1,18 +1,24 @@
 .main{
- height: 500px;
- display: flex;
- background-color: var(--black);
+ /* height: 88vh; */
+ /* display: flex; */
+ background-image: url('/assets/home/desktop/image-hero.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
  border: 1px solid var(--black);
  margin: auto;
  width: 100%;
+ /* min-height: 110vh; */
+ padding-bottom: 5rem;
 }
 
 .info{
-  width: 50%;
+  min-width: 50%;
+  max-width: 51%;
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding-left: 11rem;
+  /* margin: auto; */
+  padding-left: 10rem;
+  margin-top: 14rem;
 }
 
 .image{

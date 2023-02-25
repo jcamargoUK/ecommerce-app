@@ -14,7 +14,14 @@ export default function Product_List() {
         />
         <h2>Headphones</h2>
         <Link className={style.link} href="/">
-          Shop ➡︎
+          
+          Shop 
+          <Image
+          src='/assets/shared/desktop/icon-arrow-right.svg'
+          width={10}
+          height={10}
+          alt='icon arrow right'
+          />
         </Link>
       </div>
       <div className={style.product}>
@@ -26,7 +33,13 @@ export default function Product_List() {
         />
         <h2>Headphones</h2>
         <Link className={style.link} href="/">
-          Shop ➡︎
+          Shop
+          <Image
+          src='/assets/shared/desktop/icon-arrow-right.svg'
+          width={10}
+          height={10}
+          alt='icon arrow right'
+          />
         </Link>
       </div>
       <div className={style.product}>
@@ -38,7 +51,13 @@ export default function Product_List() {
         />
         <h2>Headphones</h2>
         <Link className={style.link} href="/">
-          Shop ➡︎
+          Shop
+          <Image
+          src='/assets/shared/desktop/icon-arrow-right.svg'
+          width={10}
+          height={10}
+          alt='icon arrow right'
+          />
         </Link>
       </div>
     </div>

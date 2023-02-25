@@ -1,4 +1,4 @@
-import NavBar from "../Header/Header";
+// import NavBar from "../Header/Header";
 import Footer from "../Footer/Footer";
 // import { useAuth } from "../../context/AuthContext";
 
@@ -8,7 +8,7 @@ export default function Layout(props) {
 
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       {props.children}
       <Footer />
     </div>
