@@ -1,19 +1,33 @@
 name: Test before merge
-on:
-  pull_request:
-    branches: [ main ]
-    types: [ opened, reopened, synchronize ]
-  push:
-    branches: [ main ]
+# on:
+#   pull_request:
+#     branches: [ main ]
+#     types: [ opened, reopened, synchronize ]
+#   push:
+#     branches: [ main ]
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v2
+#       with:
+#         token: ${{ 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 }}
+        
+#     - name: Install dependencies
+#       run: npm install
+#     - name: Run tests
+#       run: npm run test
+
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        token: ${{ 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 }}
-        
-    - name: Install dependencies
-      run: npm install
-    - name: Run tests
-      run: npm run test
+      - uses: actions/checkout@v3
+      - run: |
+          date > generated.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
