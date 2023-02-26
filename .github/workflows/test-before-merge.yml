@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      with:
-        token: ${{ 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 }}
+      # with:
+      #   token: ${{ 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 }}
         
     - name: Install dependencies
       run: npm install
