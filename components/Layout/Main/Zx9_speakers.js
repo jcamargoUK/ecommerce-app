@@ -7,10 +7,9 @@ export default function Zx9_speakers() {
       <Image
         src="/assets/home/desktop/pattern-circles.svg"
         alt="logo"
-        width={520}
-        height={520}
+        width={689}
+        height={720}
       />
-      <h1>hey</h1>
     </div>
   );
 }
