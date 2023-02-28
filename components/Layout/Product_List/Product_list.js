@@ -28,7 +28,7 @@ export default function Product_List() {
           src="/assets/shared/desktop/image-category-thumbnail-speakers.png"
           width={200}
           height={200}
-          alt="headphones"
+          alt="speakers"
         />
         <h2>Speakers</h2>
         <Link className={style.link} href="/">
@@ -46,7 +46,7 @@ export default function Product_List() {
           src="/assets/shared/desktop/image-category-thumbnail-earphones.png"
           width={230}
           height={200}
-          alt="headphones"
+          alt="earphones"
         />
         <h2>Earphones</h2>
         <Link className={style.link} href="/">
